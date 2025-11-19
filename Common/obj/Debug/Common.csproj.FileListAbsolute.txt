@@ -1,0 +1,6 @@
+C:\Users\Student-A502.PERMAVIAT\Desktop\Snake_Chernykh_Chechelnitskyi\Common\bin\Debug\Common.dll
+C:\Users\Student-A502.PERMAVIAT\Desktop\Snake_Chernykh_Chechelnitskyi\Common\bin\Debug\Common.pdb
+C:\Users\Student-A502.PERMAVIAT\Desktop\Snake_Chernykh_Chechelnitskyi\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+C:\Users\Student-A502.PERMAVIAT\Desktop\Snake_Chernykh_Chechelnitskyi\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\Student-A502.PERMAVIAT\Desktop\Snake_Chernykh_Chechelnitskyi\Common\obj\Debug\Common.dll
+C:\Users\Student-A502.PERMAVIAT\Desktop\Snake_Chernykh_Chechelnitskyi\Common\obj\Debug\Common.pdb
