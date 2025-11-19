@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Sockets;
@@ -229,6 +230,14 @@ namespace Snake_Chernykh_Chechelnitskyi
                     Send();
                 }
             }
+        }
+
+        public static void SaveLeader()
+        {
+            string json = JsonConvert.SerializeObject(Leadres);
+            StreamWriter SW = new StreamWriter("./leadres.txt");
+            SW.WriteLine(json);
+            SW.Close();
         }
     }
 }
