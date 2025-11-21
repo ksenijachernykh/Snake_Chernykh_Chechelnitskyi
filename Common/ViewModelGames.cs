@@ -10,8 +10,12 @@ namespace Common
     {
         public Snakes SnakesPlayers = new Snakes();
         public Snakes.Point Points = new Snakes.Point();
+
         public int Top = 0;
-        public int IdSnake {  get; set; }
-       
+
+        public int IdSnake { get; set; }
+
+        public string PlayerName { get; set; }
     }
 }
+

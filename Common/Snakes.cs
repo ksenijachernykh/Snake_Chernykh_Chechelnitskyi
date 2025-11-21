@@ -10,8 +10,8 @@ namespace Common
     {
         public class Point
         {
-            public int X { get; set; }
-            public int Y { get; set; }
+            public int X;
+            public int Y;
 
             public Point(int X, int Y)
             {
@@ -25,13 +25,15 @@ namespace Common
         public enum Direction
         {
             Left,
-            Right, 
-            Up, 
+            Right,
+            Up,
             Down,
             Start
         }
+
         public List<Point> Points = new List<Point>();
         public Direction direction = Direction.Start;
         public bool GameOver = false;
+
     }
 }

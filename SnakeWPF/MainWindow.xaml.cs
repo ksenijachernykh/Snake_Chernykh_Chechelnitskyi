@@ -78,9 +78,17 @@ namespace SnakeWPF
                     byte[] receiveBytes = receivingUdpClient.Receive(ref RemoteIpEndPoint);
                     string returnData = Encoding.UTF8.GetString(receiveBytes);
 
-                   
-                    Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine("Получил команду: " + returnData.ToString());
+                    if (ViewModelGames == null)
+                    {
+                        Dispatcher.Invoke(() =>
+                        {
+                            OpenPage(Game);
+                        });
+                    }
+
+                    var gameData = JsonConvert.DeserializeObject<GameData>(returnData);
+                    ViewModelGames = gameData.PlayerData;
+                    AllViewModelGames = gameData.OtherPlayersData;
 
                     if (ViewModelGames.SnakesPlayers.GameOver)
                     {
