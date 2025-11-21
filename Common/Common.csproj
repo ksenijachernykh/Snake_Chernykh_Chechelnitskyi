@@ -43,8 +43,8 @@
   <ItemGroup>
     <Compile Include="GameData.cs" />
     <Compile Include="Leaders.cs" />
-    <Compile Include="Snakes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Snakes.cs" />
     <Compile Include="ViewModelGames.cs" />
     <Compile Include="ViewModelUserSettings.cs" />
   </ItemGroup>

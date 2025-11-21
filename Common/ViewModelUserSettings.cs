@@ -11,6 +11,6 @@ namespace Common
         public string IPAddress { get; set; }
         public string Port { get; set; }
         public string Name { get; set; }
-        public int IdSnake = -1;
+        public int IdSnake =  -1;
     }
 }

@@ -4,14 +4,14 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Sockets;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using Common;
 using Newtonsoft.Json;
-using static Common.Snakes;
 
-namespace Snake_Chernykh_Chechelnitskyi
+namespace Snake
 {
     internal class Program
     {

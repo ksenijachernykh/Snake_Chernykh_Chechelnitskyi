@@ -120,11 +120,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="image\apple.png" />
-    <Resource Include="image\background_2.png" />
-    <Resource Include="image\background_3.png" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\Common\Common.csproj">
       <Project>{898a239b-af3c-41f8-abe3-68e3fa2b267f}</Project>
       <Name>Common</Name>
@@ -133,6 +128,11 @@
       <Project>{a9994315-fb36-486b-928d-ba79eac5382e}</Project>
       <Name>Snake_Chernykh_Chechelnitskyi</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\apple.png" />
+    <Resource Include="image\background_2.png" />
+    <Resource Include="image\background_3.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
