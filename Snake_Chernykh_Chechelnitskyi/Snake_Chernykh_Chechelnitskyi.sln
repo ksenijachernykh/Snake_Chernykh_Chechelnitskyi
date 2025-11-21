@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snake_Chernykh_Chechelnitskyi", "Snake_Chernykh_Chechelnitskyi.csproj", "{A9994315-FB36-486B-928D-BA79EAC5382E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "..\Common\Common.csproj", "{898A239B-AF3C-41F8-ABE3-68E3FA2B267F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnakeWPF", "..\SnakeWPF\SnakeWPF.csproj", "{B9A48A00-1CE2-4A0D-96C0-21A39064903B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +23,15 @@ Global
 		{898A239B-AF3C-41F8-ABE3-68E3FA2B267F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{898A239B-AF3C-41F8-ABE3-68E3FA2B267F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{898A239B-AF3C-41F8-ABE3-68E3FA2B267F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9A48A00-1CE2-4A0D-96C0-21A39064903B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9A48A00-1CE2-4A0D-96C0-21A39064903B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9A48A00-1CE2-4A0D-96C0-21A39064903B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9A48A00-1CE2-4A0D-96C0-21A39064903B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2DEC4389-3068-4645-B161-BA8B9911EA4D}
 	EndGlobalSection
 EndGlobal
