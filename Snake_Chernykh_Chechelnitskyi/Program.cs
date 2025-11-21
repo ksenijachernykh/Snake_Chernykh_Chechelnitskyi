@@ -11,16 +11,15 @@ using System.Threading.Tasks;
 using Common;
 using Newtonsoft.Json;
 
-namespace Snake
+namespace Snake_Chernykh_Chechelnitskyi
 {
-    internal class Program
+    class Program
     {
         public static List<Leaders> Leaders = new List<Leaders>();
         public static List<ViewModelUserSettings> remoteIPAddress = new List<ViewModelUserSettings>();
         public static List<ViewModelGames> viewModelGames = new List<ViewModelGames>();
         private static int localPort = 5001;
         public static int MaxSpeed = 15;
-
         private static void Send()
         {
             foreach (ViewModelUserSettings User in remoteIPAddress)
@@ -34,7 +33,6 @@ namespace Snake
                     var playerData = viewModelGames.Find(x => x.IdSnake == User.IdSnake);
                     var otherPlayersData = viewModelGames.FindAll(x => x.IdSnake != User.IdSnake);
 
-                    // Добавляем имена игроков
                     if (playerData != null)
                         playerData.PlayerName = User.Name;
 
@@ -98,12 +96,12 @@ namespace Snake
             viewModelGamesPlayer.SnakesPlayers = new Snakes()
             {
                 Points = new List<Snakes.Point>()
-                {
-                    new Snakes.Point() {X = 30, Y = 10 },
-                    new Snakes.Point() {X = 20, Y = 10 },
-                    new Snakes.Point() {X = 10, Y = 10 },
-                },
-                direction = Snakes.Direction.Start
+        {
+            new Snakes.Point() {X = 30, Y = 10 },
+            new Snakes.Point() {X = 20, Y = 10 },
+            new Snakes.Point() {X = 10, Y = 10 },
+        },
+                direction = Snakes.Direction.Right 
             };
             viewModelGamesPlayer.Points = new Snakes.Point(new Random().Next(10, 783), new Random().Next(10, 410));
             viewModelGames.Add(viewModelGamesPlayer);

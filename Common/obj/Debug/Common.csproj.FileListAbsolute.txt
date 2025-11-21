@@ -10,3 +10,9 @@ C:\Users\ДикиЙЛёха\Source\Repos\Snake_Chernykh_Chechelnitskyi\Common\ob
 C:\Users\ДикиЙЛёха\Source\Repos\Snake_Chernykh_Chechelnitskyi\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
 C:\Users\ДикиЙЛёха\Source\Repos\Snake_Chernykh_Chechelnitskyi\Common\obj\Debug\Common.dll
 C:\Users\ДикиЙЛёха\Source\Repos\Snake_Chernykh_Chechelnitskyi\Common\obj\Debug\Common.pdb
+D:\Kseniya\Desktop\LOL\Common\bin\Debug\Common.dll
+D:\Kseniya\Desktop\LOL\Common\bin\Debug\Common.pdb
+D:\Kseniya\Desktop\LOL\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+D:\Kseniya\Desktop\LOL\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\Kseniya\Desktop\LOL\Common\obj\Debug\Common.dll
+D:\Kseniya\Desktop\LOL\Common\obj\Debug\Common.pdb
